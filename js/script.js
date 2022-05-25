@@ -66,12 +66,14 @@ actionSpeech = (speechText) => {
       window.open("https://github.com/Kietmandjes",);
       break;
     case "help me":
-      alert("Valid speech commands: black,  reset, next page");
+      alert("Valid speech commands: paars,  reset, foto, jeroen, iphone, kiet, shirt.");
       break;
     case "shirt":
       window.open("https://www.debijenkorf.nl/prada-fijngebreid-t-shirt-in-kasjmierblend-met-logo-9842070033-984207003312046?query=fh_location%3D%252F%252Fcatalog01%252Fnl_NL%252Fcategories%253C%257Bcatalog01_80%257D%252Fcategories%253C%257Bcatalog01_80_890%257D%252Fcategories%253C%257Bcatalog01_80_890_4470%257D%252Fcategories%253C%257Bcatalog01_80_890_4470_4540%257D%252Fprijs_na_korting_nl%253E1200.0%26country%3DNL%26chl%3D1%26language%3Dnl",);
       break;
     default:
+      window.open("https://www.google.com/search?q=" + speechText,);
+      break;
       // do nothing yet
   }
 }
